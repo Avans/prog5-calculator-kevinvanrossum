@@ -12,6 +12,9 @@ namespace Calculator
         {
             Console.WriteLine("Success!");
             Console.ReadLine();
+
+            Controller calculator = new Controller();
+            calculator.start();
         }
     }
 }
